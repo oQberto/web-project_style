@@ -60,3 +60,65 @@ body {
 .navbar a:hover::before {
     width: 100%;
 }
+
+.input-section {
+    position: absolute;
+    top: 80px;
+}
+
+.intro {
+    position: absolute;
+    top: 160px;
+    left: 550px;
+
+    color: white;
+    z-index: 101;
+}
+
+.intro h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.intro h2 {
+    text-align: center;
+}
+
+.search_box {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background: #fff;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 101;
+}
+
+.search_btn {
+    color: #1da1f3;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.search_txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, serif;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 640px;
+}

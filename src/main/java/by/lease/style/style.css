@@ -122,3 +122,95 @@ body {
     line-height: 30px;
     width: 640px;
 }
+
+.desc {
+    position: absolute;
+    top: 450px;
+    left: 665px;
+}
+
+.desc h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.desc h2 {
+    color: #fff;
+}
+
+.cities {
+    position: absolute;
+    display: grid;
+    top: 580px;
+    left: 500px;
+
+    grid-template-rows: 70px 70px;
+    grid-template-columns: 170px 170px 170px;
+    grid-column-gap: 150px;
+    grid-row-gap: 100px;
+}
+
+.cities a {
+    width: 300px;
+    height: 160px;
+
+    text-align: center;
+    text-decoration: none;
+}
+
+.cities img {
+    border: 5px white;
+}
+
+.cities a img {
+    width: 300px;
+    height: 160px;
+}
+
+.city1 {
+    color: white;
+    position: absolute;
+    top: 81px;
+    left: 155px;
+    transform: translate(-50%, -50%);
+}
+
+.city2 {
+    color: white;
+    position: absolute;
+    top: 85px;
+    left: 465px;
+    transform: translate(-50%, -50%);
+}
+
+.city3 {
+    color: white;
+    position: absolute;
+    top: 85px;
+    left: 795px;
+    transform: translate(-50%, -50%);
+}
+
+.city4 {
+    color: white;
+    position: absolute;
+    top: 271px;
+    left: 155px;
+    transform: translate(-50%, -50%);
+}
+
+.city5 {
+    color: white;
+    position: absolute;
+    top: 271px;
+    left: 469px;
+    transform: translate(-50%, -50%);
+}
+
+.city6 {
+    color: white;
+    position: absolute;
+    top: 271px;
+    left: 799px;
+    transform: translate(-50%, -50%);
+}

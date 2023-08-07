@@ -1,9 +1,9 @@
 # web-project_style
 1. Main page
-![main_page.png](..%2F..%2FDesktop%2Fmain_page.png)
+![main_page.png](src/main/resources/login.png)
 
 2. Login 
-![login.png](..%2F..%2FDesktop%2Flogin.png)
+![login.png](src/main/resources/main_page.png)
 
 3. Registration
-![registration.png](..%2F..%2FDesktop%2Fregistration.png)
+![registration.png](src/main/resources/registration.png)

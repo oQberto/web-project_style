@@ -10,7 +10,7 @@
 body {
     min-height: 100vh;
     background-size: cover;
-    background: url("image/background/background.webp") no-repeat center;
+    background: url("../image/background/background.webp") no-repeat center;
 }
 
 .header {
